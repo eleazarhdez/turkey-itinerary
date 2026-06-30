@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Itinerario Turquía — Circuito Troya</title>
+<style>
+  body { margin: 0; padding: 20px; background: #fff; }
+  .wrap { padding: 1rem 0; font-size: 14px; font-family: sans-serif; max-width: 800px; margin: 0 auto; }
+  h1 { font-size: 20px; color: #2c2c2a; margin-bottom: 4px; }
+  .subtitle { font-size: 13px; color: #888780; margin-bottom: 1.5rem; }
+  .day-block {
+    margin-bottom: 1.2rem;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #d0cfc8;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .day-header { padding: 10px 16px; }
+  .day-num { font-size: 13px; font-weight: 500; opacity: .75; }
+  .day-title { font-size: 15px; font-weight: 500; margin: 1px 0; }
+  .day-meta { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .meta-pill { font-size: 11px; font-weight: 500; padding: 2px 9px; border-radius: 20px; display: inline-flex; align-items: center; gap: 4px; }
+  .pill-hotel { background: #f1efe8; color: #444441; border: 1px solid #b4b2a9; }
+  .pill-meal  { background: #dbeafe; color: #1e40af; border: 1px solid #93c5fd; }
+  .pill-none  { background: #f1efe8; color: #888780; border: 1px solid #d3d1c7; }
+  .hotel-list { padding: 8px 16px 10px; border-top: 1px solid #d0cfc8; background: #f8f7f3; }
+  .hotel-list p { margin: 0; font-size: 12px; color: #5f5e5a; line-height: 1.7; }
+  .hotel-list p + p { margin-top: 4px; }
+  .hotel-list strong { color: #2c2c2a; font-weight: 500; }
+  .monument-row { display: flex; align-items: flex-start; gap: 10px; padding: 7px 16px; border-top: 1px solid #d0cfc8; }
+  .m-name { color: #2c2c2a; flex: 1; line-height: 1.45; }
+  .badge { font-size: 10px; font-weight: 500; padding: 2px 7px; border-radius: 20px; white-space: nowrap; margin-top: 1px; flex-shrink: 0; }
+  .badge-inc { background: #dcfce7; color: #166534; border: 1px solid #86efac; }
+  .badge-opt { background: #fef9c3; color: #854d0e; border: 1px solid #fde047; }
+  .legend {
+    display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 1.2rem;
+    font-size: 12px; color: #5f5e5a; align-items: center;
+    page-break-inside: avoid; break-inside: avoid;
+  }
+  .no-visits { padding: 10px 16px; font-size: 13px; color: #888780; border-top: 1px solid #d0cfc8; font-style: italic; }
+  .print-btn {
+    display: inline-block; margin-bottom: 1.5rem; padding: 8px 16px;
+    background: #2c2c2a; color: #fff; border: none; border-radius: 8px;
+    font-size: 13px; cursor: pointer; font-family: sans-serif;
+  }
+  @media print {
+    body { padding: 0; }
+    .print-btn { display: none; }
+    .day-block { page-break-inside: avoid; break-inside: avoid; border-radius: 8px; }
+    .badge-inc, .badge-opt, .pill-meal, .pill-hotel, .hotel-list, .day-header {
+      -webkit-print-color-adjust: exact; print-color-adjust: exact;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Itinerario Turquía — Circuito Troya (10 días)</h1>
+  <div class="subtitle">Julio – Agosto 2026</div>
+  <button class="print-btn" onclick="window.print()">🖨️ Imprimir / Guardar como PDF</button>
+
+  <div class="legend">
+    <span><span class="badge badge-inc">Incluida</span> Visita incluida</span>
+    <span><span class="badge badge-opt">Opcional</span> Visita opcional (extra)</span>
+    <span><span class="meta-pill pill-meal">🍽️ Comidas</span> Pensión incluida</span>
+  </div>
+
+  <!-- DÍA 1 -->
+  <div class="day-block" style="border-color:#534AB7;">
+    <div class="day-header" style="background:#EEEDFE;">
+      <div class="day-num" style="color:#534AB7;">Día 1</div>
+      <div class="day-title" style="color:#3C3489;">🛬 Llegada — Estambul</div>
+      <div class="day-meta">
+        <span class="meta-pill pill-hotel">🏨 Estambul (cat. 4★)</span>
+        <span class="meta-pill pill-none">🍽️ Sin comidas</span>
+      </div>
+    </div>
+    <div class="hotel-list">
+      <p>Avantgarde Taksim · Midtown · Elite World Comfy Taksim · Nippon Hotel · Titanic City Taksim · Avantgarde Sisli · Occidental Taksim · Double Tree Hilton Piyalepasa · Arts Hotel Taksim · Ramada by Wyndham Taksim <strong>o similar 4★</strong></p>
+    </div>
+    <div class="no-visits">Sin visitas — traslado al hotel y alojamiento.</div>
+  </div>
+
+  <!-- DÍA 2 -->
+  <div class="day-block" style="border-color:#534AB7;">
+    <div class="day-header" style="background:#EEEDFE;">
+      <div class="day-num" style="color:#534AB7;">Día 2</div>
+      <div class="day-title" style="color:#3C3489;">🕌 Estambul — Solimán el Magnífico</div>
+      <div class="day-meta">
+        <span class="meta-pill pill-hotel">🏨 Estambul (cat. 4★)</span>
+        <span class="meta-pill pill-meal">🍽️ Desayuno</span>
+      </div>
+    </div>
+    <div class="hotel-list">
+      <p>Avantgarde Taksim · Midtown · Elite World Comfy Taksim · Nippon Hotel · Titanic City Taksim · Avantgarde Sisli · Occidental Taksim · Double Tree Hilton Piyalepasa · Arts Hotel Taksim · Ramada by Wyndham Taksim <strong>o similar 4★</strong></p>
+    </div>
+    <div class="monument-row"><span class="m-name">Mezquita de Solimán el Magnífico (3ª colina de Estambul, arq. Sinan)</span><span class="badge badge-inc">Incluida</span></div>
+    <div class="monument-row"><span class="m-name">Santa Sofía (exterior) — culminación del arte bizantino</span><span class="badge badge-opt">Opcional</span></div>
+    <div class="monument-row"><span class="m-name">Palacio de Topkapi — residencia de los sultanes otomanos</span><span class="badge badge-opt">Opcional</span></div>
+    <div class="monument-row"><span class="m-name">Mezquita Azul — prodigio de armonía y elegancia</span><span class="badge badge-opt">Opcional</span></div>
+    <div class="monument-row"><span class="m-name">Hipódromo (Obelisco de Teodosio, Columna Serpentina, Fuente de Guillermo, Obelisco Egipcio)</span><span class="badge badge-opt">Opcional</span></div>
+    <div class="monument-row"><span class="m-name">Gran Bazar (4.000 tiendas)</span><span class="badge badge-opt">Opcional</span></div>
+    <div class="monument-row"><span class="m-name">Almuerzo típico en Sultanahmet</span><span class="badge badge-opt">Opcional</span></div>
+  </div>
+
+  <!-- DÍA 3 -->
+  <div class="day-block" style="border-color:#534AB7;">
+    <div class="day-header" style="background:#EEEDFE;">
+      <div class="day-num" style="color:#534AB7;">Día 3</div>
+      <div class="day-title" style="color:#3C3489;">🚢 Estambul — Día libre / Bósforo</div>
+      <div class="day-meta">
+        <span class="meta-pill pill-hotel">🏨 Estambul (cat. 4★)</span>
+        <span class="meta-pill pill-meal">🍽️ Desayuno</span>
+      </div>
+    </div>
+    <div class="hotel-list">
+      <p>Avantgarde Taksim · Midtown · Elite World Comfy Taksim · Nippon Hotel · Titanic City Taksim · Avantgarde Sisli · Occidental Taksim · Double Tree Hilton Piyalepasa · Arts Hotel Taksim · Ramada by Wyndham Taksim <strong>o similar 4★</strong></p>
+    </div>
+    <div class="no-visits" style="border-top:1px solid #d0cfc8;">Día libre — todas las actividades son opcionales.</div>
+    <div class="monument-row"><span class="m-name">Paseo en barco por el Bósforo (canal Europa-Asia)</span><span class="badge badge-opt">Opcional</span></div>
+    <div class="monument-row"><span class="m-name">Bazar de las Especias (5 siglos de historia)</span><span class="badge badge-opt">Opcional</span></div>
+    <div class="monument-row"><span class="m-name">Palacio de Beylerbey (lado asiático, residencia de verano de los sultanes)</span><span class="badge badge-opt">Opcional</span></div>
+    <div class="monument-row"><span class="m-name">Puente colgante del Bósforo (conexión Europa-Asia)</span><span class="badge badge-opt">Opcional</span></div>
+    <div class="monument-row"><span class="m-name">Distrito de Üsküdar (lado asiático)</span><span class="badge badge-opt">Opcional</span></div>
+    <div class="monument-row"><span class="m-name">Colina Çamlıca (268 m — punto más alto de Estambul, vistas panorámicas)</span><span class="badge badge-opt">Opcional</span></div>
+  </div>
+
+  <!-- DÍA 4 -->
+  <div class="day-block" style="border-color:#0F6E56;">
+    <div class="day-header" style="background:#E1F5EE;">
+      <div class="day-num" style="color:#0F6E56;">Día 4</div>
+      <div class="day-title" style="color:#085041;">🚌 Estambul → Ankara → Capadocia</div>
+      <div class="day-meta">
+        <span class="meta-pill pill-hotel">🏨 Capadocia (cat. 4★)</span>
+        <span class="meta-pill pill-meal">🍽️ Desayuno y cena</span>
+      </div>
+    </div>
+    <div class="hotel-list">
+      <p>Ramada by Wyndham · Mustafa Hotel · Avrasya Hotel · Double Tree Hilton Avanos · Crown Plaza Nevsehir · Marriott Cappadocia · Dinler Hotel · Barceló Cappadocia <strong>o similar 4★</strong></p>
+    </div>
+    <div class="monument-row"><span class="m-name">Mausoleo Anıtkabir — tumba del fundador de la República Turca (Atatürk)</span><span class="badge badge-inc">Incluida</span></div>
+    <div class="monument-row"><span class="m-name">Lago Salado — 2º lago más grande de Turquía</span><span class="badge badge-inc">Incluida</span></div>
+    <div class="monument-row"><span class="m-name">Caravanserai del siglo XIII (posada medieval en ruta)</span><span class="badge badge-inc">Incluida</span></div>
+    <div class="monument-row"><span class="m-name">Safari en Jeep por Capadocia</span><span class="badge badge-opt">Opcional</span></div>
+  </div>
+
+  <!-- DÍA 5 -->
+  <div class="day-block" style="border-color:#BA7517;">
+    <div class="day-header" style="background:#FAEEDA;">
+      <div class="day-num" style="color:#BA7517;">Día 5</div>
+      <div class="day-title" style="color:#633806;">🌋 Capadocia</div>
+      <div class="day-meta">
+        <span class="meta-pill pill-hotel">🏨 Capadocia (cat. 4★)</span>
+        <span class="meta-pill pill-meal">🍽️ Desayuno y cena</span>
+      </div>
+    </div>
+    <div class="hotel-list">
+      <p>Ramada by Wyndham · Mustafa Hotel · Avrasya Hotel · Double Tree Hilton Avanos · Crown Plaza Nevsehir · Marriott Cappadocia · Dinler Hotel · Barceló Cappadocia <strong>o similar 4★</strong></p>
+    </div>
+    <div class="monument-row"><span class="m-name">Valle de Göreme — complejo monástico bizantino, iglesias excavadas en roca con frescos</span><span class="badge badge-inc">Incluida</span></div>
+    <div class="monument-row"><span class="m-name">Valle de Avcilar y Güvercinlik — chimeneas de hadas (formaciones volcánicas)</span><span class="badge badge-inc">Incluida</span></div>
+    <div class="monument-row"><span class="m-name">Talleres de alfombras, Ónix y Turquesa</span><span class="badge badge-inc">Incluida</span></div>
+    <div class="monument-row"><span class="m-name">Vuelo en globo aerostático o noche turca</span><span class="badge badge-opt">Opcional</span></div>
+  </div>
+
+  <!-- DÍA 6 -->
+  <div class="day-block" style="border-color:#185FA5;">
+    <div class="day-header" style="background:#E6F1FB;">
+      <div class="day-num" style="color:#185FA5;">Día 6</div>
+      <div class="day-title" style="color:#0C447C;">💧 Capadocia → Pamukkale</div>
+      <div class="day-meta">
+        <span class="meta-pill pill-hotel">🏨 Pamukkale (cat. 4★)</span>
+        <span class="meta-pill pill-meal">🍽️ Desayuno y cena</span>
+      </div>
+    </div>
+    <div class="hotel-list">
+      <p>Colossae · Anya Resort · Richmond · Adempira · Kaya Thermal · Pam Thermal <strong>o similar 4★</strong> (alrededores)</p>
+    </div>
+    <div class="monument-row"><span class="m-name">Hierápolis — antigua ciudad helenística en ruinas</span><span class="badge badge-inc">Incluida</span></div>
+    <div class="monument-row"><span class="m-name">Castillo de Algodón — cascadas blancas, estalactitas y piscinas termales naturales</span><span class="badge badge-inc">Incluida</span></div>
+  </div>
+
+  <!-- DÍA 7 -->
+  <div class="day-block" style="border-color:#993C1D;">
+    <div class="day-header" style="background:#FAECE7;">
+      <div class="day-num" style="color:#993C1D;">Día 7</div>
+      <div class="day-title" style="color:#711B0D;">🏺 Pamukkale → Éfeso → Kusadasi / Izmir</div>
+      <div class="day-meta">
+        <span class="meta-pill pill-hotel">🏨 Kusadasi o Izmir (cat. 4★)</span>
+        <span class="meta-pill pill-meal">🍽️ Desayuno y cena</span>
+      </div>
+    </div>
+    <div class="hotel-list">
+      <p><strong>Kusadasi:</strong> Le Blu Hotel · Faustina Hotel · Infinity Hotel · Seven for Life Hotel · Grand Belish · Elite World Kusadasi <strong>o similar 4★</strong></p>
+      <p><strong>Izmir:</strong> Ramada Plaza Izmir · Anemon Aydin Hotel · Ramada Kemalpasa · Hampton by Hilton Aliaga · Radisson Blu Aliaga · Ramada Encoüre Izmir · Kaya Prestige <strong>o similar 4★</strong></p>
+    </div>
+    <div class="monument-row"><span class="m-name">Éfeso — ciudad grecorromana: Templo de Adriano, Templo de Trajano, Teatro, Biblioteca de Celso</span><span class="badge badge-inc">Incluida</span></div>
+    <div class="monument-row"><span class="m-name">Casa de la Virgen María — lugar donde pasó sus últimos años</span><span class="badge badge-inc">Incluida</span></div>
+    <div class="monument-row"><span class="m-name">Galería de artículos de cuero — prendas de piel de cordero</span><span class="badge badge-inc">Incluida</span></div>
+  </div>
+
+  <!-- DÍA 8 -->
+  <div class="day-block" style="border-color:#639922;">
+    <div class="day-header" style="background:#EAF3DE;">
+      <div class="day-num" style="color:#639922;">Día 8</div>
+      <div class="day-title" style="color:#27500A;">🏹 Izmir → Pérgamo → Troya → Çanakkale</div>
+      <div class="day-meta">
+        <span class="meta-pill pill-hotel">🏨 Çanakkale (cat. 4★)</span>
+        <span class="meta-pill pill-meal">🍽️ Desayuno y cena</span>
+      </div>
+    </div>
+    <div class="hotel-list">
+      <p>Yurdakul · MD Barbaros · Remida Hotel · Iris · Parrion Hotel · Kollin Hotel <strong>o similar 4★</strong></p>
+    </div>
+    <div class="monument-row"><span class="m-name">Asclepeion de Pérgamo — hospital del mundo antiguo (Esculapio · Galeno): túneles, teatro, piscinas, calle antigua, columnas jónicas</span><span class="badge badge-inc">Incluida</span></div>
+    <div class="monument-row"><span class="m-name">Troya — ciudad de 9 niveles, la Ilíada de Homero y el Caballo de Troya</span><span class="badge badge-inc">Incluida</span></div>
+    <div class="monument-row"><span class="m-name">Çanakkale — ciudad junto al estrecho de los Dardanelos</span><span class="badge badge-inc">Incluida</span></div>
+  </div>
+
+  <!-- DÍA 9 -->
+  <div class="day-block" style="border-color:#993556;">
+    <div class="day-header" style="background:#FBEAF0;">
+      <div class="day-num" style="color:#993556;">Día 9</div>
+      <div class="day-title" style="color:#72243E;">🕌 Çanakkale → Bursa → Estambul</div>
+      <div class="day-meta">
+        <span class="meta-pill pill-hotel">🏨 Estambul (cat. 4★)</span>
+        <span class="meta-pill pill-meal">🍽️ Desayuno</span>
+      </div>
+    </div>
+    <div class="hotel-list">
+      <p>Avantgarde Taksim · Midtown · Elite World Comfy Taksim · Nippon Hotel · Titanic City Taksim · Avantgarde Sisli · Occidental Taksim · Double Tree Hilton Piyalepasa · Arts Hotel Taksim · Ramada by Wyndham Taksim <strong>o similar 4★</strong></p>
+    </div>
+    <div class="monument-row"><span class="m-name">Mezquita Ulu Camii — Bursa</span><span class="badge badge-inc">Incluida</span></div>
+    <div class="monument-row"><span class="m-name">Bazar de la Seda — Koza Han · Bursa</span><span class="badge badge-inc">Incluida</span></div>
+    <div class="monument-row"><span class="m-name">Mausoleo Verde — Bursa</span><span class="badge badge-inc">Incluida</span></div>
+  </div>
+
+  <!-- DÍA 10 -->
+  <div class="day-block" style="border-color:#888780;">
+    <div class="day-header" style="background:#F1EFE8;">
+      <div class="day-num" style="color:#5F5E5A;">Día 10</div>
+      <div class="day-title" style="color:#2C2C2A;">✈️ Estambul — Regreso</div>
+      <div class="day-meta">
+        <span class="meta-pill pill-meal">🍽️ Desayuno</span>
+        <span class="meta-pill pill-none">Recogida 4h antes del vuelo</span>
+      </div>
+    </div>
+    <div class="no-visits">Sin visitas — traslado al aeropuerto y fin de servicios.</div>
+  </div>
+
+</div>
+</body>
+</html>
